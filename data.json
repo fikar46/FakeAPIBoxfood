@@ -95,81 +95,125 @@
     {
       "id": 2,
       "nama_paket": "classic",
-      "caption": "Makanan yang dapat disajikan untuk 2 orang atau lebih"
+      "caption": "Makanan yang dapat disajikan untuk 2 orang atau lebih",
+      "paket_2orang": 120000,
+      "paket_3orang": 150000
     },
     {
       "id": 3,
       "nama_paket": "family",
-      "caption": "cocok untuk keluarga besar anda"
+      "caption": "cocok untuk keluarga besar anda",
+      "paket_2orang": 120000,
+      "paket_3orang": 150000
     }
   ],
   "promo": [
     {
       "id": 1,
       "nama_promo": "boxfoodceria",
+      "potongan": 0.1
+    },
+    {
+      "id": 2,
+      "nama_promo": "COHIVEXBOXFOOD",
       "potongan": 0.2
     }
   ],
   "cart": [
     {
+      "id_pesanan": "sW6Il",
       "username": "fikar",
-      "firstName": "",
-      "lastName": "",
-      "phone": "",
-      "email": "",
-      "address": "",
-      "kelurahan": "true",
-      "kota": "true",
-      "zipCode": "",
+      "firstName": "fikar",
+      "lastName": "meylendra",
+      "phone": "82210996848",
+      "email": "mzulfikarm@outlook.com",
+      "address": "jl jati 2 no 37 cluster jati taman royal 3 tangerang",
+      "kelurahan": "Tanah tinggi",
+      "kota": "Tangerang",
+      "zipCode": "15119",
       "paket": "vegan",
       "person": 2,
       "id_p1": 1,
       "id_p2": 2,
       "id_p3": 3,
       "id_p4": null,
-      "total_harga": 120000,
-      "date": "1/11/2019, 3:41:09 PM",
+      "week": 1,
+      "total_harga": 108000,
+      "saveAddress": true,
+      "bri": true,
+      "bni": false,
+      "bca": false,
+      "mandiri": false,
+      "status":"menunggu konfirmasi pembayaran",
+      "date": "1/12/2019, 5:31:55 PM",
       "id": 1
     },
     {
+      "id_pesanan": "d1cKi",
       "username": "fikar",
       "firstName": "fikar",
       "lastName": "meylendra",
-      "phone": "82210996848",
+      "phone": "087882449585",
       "email": "mzulfikarm@outlook.com",
       "address": "jl jati 2 no 37 cluster jati taman royal 3 tangerang",
       "kelurahan": "Tanah tinggi",
       "kota": "Tangerang",
       "zipCode": "15119",
-      "paket": "vegan",
+      "paket": "classic",
       "person": 2,
       "id_p1": 1,
       "id_p2": 2,
       "id_p3": 3,
       "id_p4": null,
+      "week": 1,
       "total_harga": 120000,
-      "date": "1/11/2019, 3:42:55 PM",
+      "saveAddress": false,
+      "bri": false,
+      "bni": true,
+      "bca": false,
+      "mandiri": false,
+      "status":"pesanan sedang di proses",
+      "date": "1/14/2019, 4:58:20 PM",
       "id": 2
+    }
+  ],
+  "bukti_pembayaran": [
+    {
+      "id_pesanan": "sW6Il",
+      "noRek": "979812391723618723681",
+      "NamaRekening": "M Zulfikar Meylendra",
+      "date": "1/12/2019, 8:38:59 PM",
+      "id": 1
     },
     {
-      "username": "fikar",
-      "firstName": "fikar",
-      "lastName": "meylendra",
-      "phone": "82210996848",
-      "email": "mzulfikarm@outlook.com",
-      "address": "jl jati 2 no 37 cluster jati taman royal 3 tangerang",
-      "kelurahan": "Tanah tinggi",
-      "kota": "Tangerang",
-      "zipCode": "15119",
-      "paket": "vegan",
-      "person": 2,
-      "id_p1": 1,
-      "id_p2": 2,
-      "id_p3": 3,
-      "id_p4": null,
-      "total_harga": 96000,
-      "date": "1/11/2019, 3:43:11 PM",
-      "id": 3
+      "id_pesanan": "d1cKi",
+      "bank": "BNI",
+      "noRek": "979812391723618723681",
+      "NamaRekening": "M Zulfikar Meylendra",
+      "date": "1/14/2019, 5:01:11 PM",
+      "id": 2
+    }
+  ],
+  "bank": [
+    {
+      "id": 1,
+      "nama_bank": "bri",
+      "nomer_rek": "7182736817532"
+    },
+    {
+      "id": 2,
+      "nama_bank": "bca",
+      "nomer_rek": "7182736817532"
+    },
+    {
+      "id": 3,
+      "nama_bank": "bni",
+      "nomer_rek": "7182736817532"
+    },
+    {
+      "id": 4,
+      "nama_bank": "mandiri",
+      "nomer_rek": "7182736817532"
     }
   ],
   "history": [
